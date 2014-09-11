@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+    <servlet>
+  <servlet-name>s1</servlet-name>
+  <servlet-class>com.control.ControllerServletlogin</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>s1</servlet-name>
+  <url-pattern>/ControllerServletlogin</url-pattern>
+  </servlet-mapping>
+  
+      <servlet>
+  <servlet-name>s2</servlet-name>
+  <servlet-class>com.control.UploadServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>s2</servlet-name>
+  <url-pattern>/UploadServlet</url-pattern>
+  </servlet-mapping>
+  
+        <servlet>
+  <servlet-name>s3</servlet-name>
+  <servlet-class>com.control.UploaddocServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>s3</servlet-name>
+  <url-pattern>/UploaddocServlet</url-pattern>
+  </servlet-mapping>
+
+
+        <servlet>
+  <servlet-name>s4</servlet-name>
+  <servlet-class>com.control.controllerservlet_registration</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>s4</servlet-name>
+  <url-pattern>/controllerservlet_registration</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+  <servlet-name>s5</servlet-name>
+  <servlet-class>com.control.Controllermodifydocument</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>s5</servlet-name>
+  <url-pattern>/Controllermodifydocument</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+  <servlet-name>s6</servlet-name>
+  <servlet-class>com.control.ControllerServlet_Profile_Modify</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>s6</servlet-name>
+  <url-pattern>/ControllerServlet_Profile_Modify</url-pattern>
+  </servlet-mapping>
+
+    <servlet>
+  <servlet-name>s7</servlet-name>
+  <servlet-class>com.control.controllerservlet_group</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>s7</servlet-name>
+  <url-pattern>/controllerservlet_group</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+  <servlet-name>s9</servlet-name>
+  <servlet-class>com.control.controllerservlet_membergroup</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>s9</servlet-name>
+  <url-pattern>/controllerservlet_membergroup</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+  <servlet-name>s8</servlet-name>
+  <servlet-class>com.control.controllerservlet_addmember</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>s8</servlet-name>
+  <url-pattern>/controllerservlet_addmember</url-pattern>
+  </servlet-mapping>
+
+    <servlet>
+  <servlet-name>s10</servlet-name>
+  <servlet-class>com.control.DownloadFileServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>s10</servlet-name>
+  <url-pattern>/DownloadFileServlet</url-pattern>
+  </servlet-mapping>
+
+      <servlet>
+  <servlet-name>s11</servlet-name>
+  <servlet-class>com.control.controllerservlet_deletegroup</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>s11</servlet-name>
+  <url-pattern>/controllerservlet_deletegroup</url-pattern>
+  </servlet-mapping>
+
+      <servlet>
+  <servlet-name>s12</servlet-name>
+  <servlet-class>com.control.controllerservlet_removegroup</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>s12</servlet-name>
+  <url-pattern>/controllerservlet_removegroup</url-pattern>
+  </servlet-mapping>
+</web-app>
